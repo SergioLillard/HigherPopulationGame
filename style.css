@@ -118,7 +118,7 @@ main {
 
 @media (max-width: 940px) {
   #boxes {
-    padding: 10;
+    padding: 10px;
     gap: 60px;
   }
 
@@ -148,4 +148,10 @@ main {
   main {
     gap: 80px;
   }
+}
+
+@media (max-width: 420px) {
+   #boxes {
+    padding: 10px 30px 10px 0;
+   }
 }
